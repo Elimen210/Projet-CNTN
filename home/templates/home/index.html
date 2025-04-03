@@ -1,0 +1,9 @@
+{% load static %}
+
+{% block content %}
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}"> 
+    <nav class="navbar">
+        <a class="navbar-btn" href="{% url 'index' %}">Guetto</a>
+    </nav>
+{% endblock content %}
