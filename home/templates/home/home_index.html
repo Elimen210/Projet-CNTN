@@ -1,0 +1,15 @@
+{% load static %}
+
+{% block content %}
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}"> 
+    <nav class="navbar">
+        <a class="navbar-btn" href="{% url 'index' %}"><img src="{% static 'home_photos/Guetto Logo.png' %}" class="img"></a>
+    </nav>
+    <div class="background-image-1"></div>
+    <h2 class="h1-presentation-1">Guetto propose comme oeuvre une web app d'API et d'IA</h2>
+    <div class="justify-content-center">
+        <a class="btn button-1" href="{% url 'project' %}">Decouvrir l'API</a>
+        <a class="btn button-2" href="{% url 'ia' %}">Decouvrir l'IA</a>
+    </div>
+{% endblock content %}

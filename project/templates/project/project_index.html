@@ -1,0 +1,9 @@
+{% load static %}
+
+{% block content %}
+<title>Home</title>
+<link rel="stylesheet" href="{% static 'css/project.css' %}">
+<nav class="navbar">
+    <a class="navbar-btn" href="{% url 'index' %}"><img src="{% static 'home_photos/Guetto Logo.png' %}" class="img"></a>
+</nav>
+{% endblock content %}

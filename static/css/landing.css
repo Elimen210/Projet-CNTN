@@ -26,8 +26,8 @@ body {
     border-color: black;
     position: fixed;
     z-index: 10;
-    display: flex; /* Utilise flexbox pour centrer le contenu */
-    justify-content: center; /* Centre le contenu horizontalement */
+    display: flex; 
+    justify-content: center; 
     align-items: center;
 }
 
@@ -90,3 +90,9 @@ body {
     font-family: Calibri;
     font-size: 25px;
 }
+
+.img {
+    width: 100px;
+    height: auto;
+}
+
