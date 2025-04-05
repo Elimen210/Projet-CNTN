@@ -12,9 +12,13 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv = (os.path.join(BASE_DIR, 'env'))
+
+APIKEY = os.getenv("OPENAI_APIKEY")
 
 
 # Quick-start development settings - unsuitable for production
@@ -37,6 +41,10 @@ INSTALLED_APPS = [
     'ia',
     'landing',
 
+    'rest_framework',
+    'rest_framework.authtoken',
+
+    'crispy_forms',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',

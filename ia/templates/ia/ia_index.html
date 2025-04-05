@@ -1,9 +1,12 @@
 {% load static %}
 
 {% block content %}
-<title>Home</title>
+<title>AI</title>
 <link rel="stylesheet" href="{% static 'css/ia.css' %}">
 <nav class="navbar">
     <a class="navbar-btn" href="{% url 'index' %}"><img src="{% static 'home_photos/Guetto Logo.png' %}" class="img"></a>
 </nav>
+<div class="search-bar">
+    <button >Research</button>
+</div>
 {% endblock content %}

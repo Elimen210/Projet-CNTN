@@ -68,3 +68,16 @@ body {
     width: 100px;
     height: auto;
 }
+
+.search-bar {
+    background-color: #f1f1f1;
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 60%;
+    margin: 10px auto;
+    box-shadow: 0;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+}
