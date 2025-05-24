@@ -6,7 +6,13 @@
 <nav class="navbar">
     <a class="navbar-btn" href="{% url 'index' %}"><img src="{% static 'home_photos/Guetto Logo.png' %}" class="img"></a>
 </nav>
-<div class="search-bar">
-    <button >Research</button>
-</div>
+<nav class="search-bar">
+    <form method="post" action="{% url 'enregistrer_recherche' %}">
+        {% csrf_token %}
+        <input type="search" name="search" placeholder="Type something..." autocomplete="off" class="search-area" />
+    </form>
+</nav>
+{% if texte_recherche %}
+    <h2 class="response">Vous avez recherche : "{{ texte_recherche }}"</h2>
+{% endif %}
 {% endblock content %}
