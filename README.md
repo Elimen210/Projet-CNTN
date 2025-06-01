@@ -6,13 +6,20 @@
 Pour exécuter le projet, vous devez d'abord installer Python (au moins la version 3.9) et Django.
 
 Pour le rendre fonctionnel, exécutez les commandes suivantes dans le cmd du dossier de l'ensemble du projet (où l'on retrouve manage.py):
+</br>
 pip install django 
+</br>
 pip install django-allauth django-crispy-forms
+</br>
 pip install python-dotenv
+</br>
 pip install djangorestframework
+</br>
 pip install openai
+</br>
 
 Puis mettez la commmande suivante:
+</br>
 .\venv\Scripts\Activate
 
 Assurez-vous que votre django a une version équivalente ou supérieure à celui du projet (v4.2.20)
