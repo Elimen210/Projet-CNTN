@@ -7,9 +7,8 @@ Pour exécuter le projet, vous devez installer impérativement Python (au moins 
 
 Pour le rendre fonctionnel, exécutez la commandes suivante dans le cmd du dossier de l'ensemble du projet (où l'on retrouve manage.py):
 <br/>
-script\execute.bat ou .\scripts\execute.bat
+``script\execute.bat`` ou ``.\scripts\execute.bat``
 
-Pour exécuter le serveur, exécutez la commande suivante :
-« python manage.py runserver »
+Pour exécuter le serveur, exécutez la commande suivante :   ``python manage.py runserver``
 
 Pour me donner un pourboire, consultez mon compte PayPal avec le lien: https://www.paypal.com/paypalme/Elimen210?country.x=CA&locale.x=fr_CA
