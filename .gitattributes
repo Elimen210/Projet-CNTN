@@ -1,4 +1,2 @@
-__pycache__/
-*.pyc
-.env
-venv\Lib\site-packages
+# Auto detect text files and perform LF normalization
+* text=auto
