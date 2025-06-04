@@ -1,3 +1,3 @@
 @echo off
-python execute.py
+python script/execute.py
 pause
