@@ -3,12 +3,13 @@
 
  Guetto est un projet d'application web permettant aux gabonais de faire un tour sur l'IA et l'API proposé par notre groupe. 
 
-Pour exécuter le projet, vous devez installer impérativement Python (au moins la version 3.9).
+<br>Pour pour exécuter le projet, vous devez installer impérativement Python (au moins la version 3.9).</br>
 
-Pour le rendre fonctionnel, exécutez la commandes suivante dans le cmd du dossier de l'ensemble du projet (où l'on retrouve manage.py):
-<br/>
-``script\execute.bat`` ou ``.\scripts\execute.bat``
-
+<br>Pour le rendre fonctionnel, exécutez les commandes suivantes dans le cmd du dossier de l'ensemble du projet (où l'on retrouve manage.py):</br> 
+<br>python -m venv venv</br> 
+<br>venv\Scripts\activate</br>
+<br>pip install -r requirements.txt</br>
+</br>
 Pour exécuter le serveur, exécutez la commande suivante :   ``python manage.py runserver``
 
 Pour me donner un pourboire, consultez mon compte PayPal avec le lien: https://www.paypal.com/paypalme/Elimen210?country.x=CA&locale.x=fr_CA
