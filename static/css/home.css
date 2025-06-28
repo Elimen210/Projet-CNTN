@@ -124,18 +124,36 @@ body {
 }
 
 .button-1 {
+    text-decoration: none;
+    font-family: Calibri;
+    color: green;
     display: flex;
-    border: none;
-    padding: 10px;
-    background-color: red;
-    border-radius: 20px;
+    border: 1px solid green;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
     margin-right: 20px;
 }
 
 .button-2 {
+    text-decoration: none;
+    font-family: Calibri;
     display: flex;
-    border: none;
-    padding: 10px;
-    background-color: blue;
-    border-radius: 20px;
+    border: 1px solid orange;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+    color: orange;
+}
+
+.button-3 {
+    text-decoration: none;
+    font-family: Calibri;
+    display: flex;
+    border: 1px solid blue;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+    color: blue;
+    margin-left: 15px;
 }
