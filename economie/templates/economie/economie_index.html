@@ -1,7 +1,15 @@
+{% extends 'economie/base.html' %}
 {% load static %}
 
+
 {% block content %}
-    <title>economie</title>
-    <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    
+    <nav class="navbar">
+        <a href="" class="btn-navbar"><img src="{% static 'home_photos/Guetto Logo.png' %}" class="img"></a>
+    </nav>
+    <div class="economy-bar">
+        <img src="{% static 'economy_photos/image-removebg-preview.png' %}" class="economy-img" />
+        
+    </div> 
+    <br />
+    <h1 class="economy-h1">ECONOMIE</h1>
 {% endblock content %}
