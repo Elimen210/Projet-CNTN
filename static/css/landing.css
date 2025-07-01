@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
     overflow-x: hidden;
 }
 
@@ -70,7 +69,6 @@ body {
 }
 
 .background {
-    position: absolute;
     background-image: url("/static/landing_photos/Test_Image.jpg");
     background-size: cover;
     background-position: center;
@@ -94,5 +92,25 @@ body {
 .img {
     width: 100px;
     height: auto;
+}
+
+
+.navbar-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1-intro {
+    font-family: Calibri;
+    font-size: 40px;
+    margin-top: 45px;
+}
+
+.h2-intro {
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 15px;
 }
 
